@@ -5,7 +5,6 @@ import logo from './logo.png'
 function Header() {
 
     return (
-      <div className="App" >
         <Navbar bg="light" expand="lg">
         <img src={logo} className="App-logo" alt="logo" />
 
@@ -22,7 +21,6 @@ function Header() {
       </Nav>
     </Navbar.Collapse>
   </Navbar>
-      </div>
     )
   }
 
