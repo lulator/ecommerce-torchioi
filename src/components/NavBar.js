@@ -2,7 +2,7 @@ import {NavDropdown, Navbar, Nav} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './logo.png'
 
-function Header() {
+function NavBar() {
 
     return (
         <Navbar bg="light" expand="lg">
@@ -25,4 +25,4 @@ function Header() {
   }
 
 
-export default Header
+export default NavBar
