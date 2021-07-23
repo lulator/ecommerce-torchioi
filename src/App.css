@@ -2,3 +2,8 @@
   width: 150px;
   margin-left: 20px;
 }
+
+.login-icon, .cart-icon {
+  width: 30px;
+  margin-right: 50px;
+}

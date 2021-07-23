@@ -1,6 +1,7 @@
 import {NavDropdown, Navbar, Nav} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './logo.svg'
+import CartWidget from './CartWidget'
 
 const NavBar = () => {
 
@@ -20,6 +21,7 @@ const NavBar = () => {
             <Nav.Link href="#home">Girls</Nav.Link>
       </Nav>
     </Navbar.Collapse>
+    <CartWidget />
   </Navbar>
     )
   }
