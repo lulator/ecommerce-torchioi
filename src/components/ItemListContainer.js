@@ -1,11 +1,16 @@
 import React from 'react'
+import ItemCount from './ItemCount'
 
-const ItemListContainer = (props) => { 
-    const {greeting} = props
+
+const handleCount = (cant) => {
+    alert(`Estás agregando ${cant} unidades al carrito`)
+}
+
+const ItemListContainer = () => { 
     
     return (
         <div>
-            <h1>{greeting}</h1>
+            <ItemCount stock={5} initial={1} onAdd={handleCount} />
         </div>
     )
 }
