@@ -13,3 +13,26 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.contador-prods p {
+  margin-top: 10px;
+}
+
+.item-style{
+ width: 100%;
+}
+
+.gallery-prods {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-gap: .6em;
+}
+
+.gallery-block {
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+.loading{
+  display: flex;
+  justify-content: center;
+}
