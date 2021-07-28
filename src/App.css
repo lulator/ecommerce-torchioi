@@ -36,3 +36,12 @@
   display: flex;
   justify-content: center;
 }
+
+.item-style {
+  width: 25rem;
+}
+
+.item-detail {
+  display: flex;
+  justify-content: center;
+}

@@ -9,6 +9,7 @@ import prod8 from './images/prod8.jpg'
 
 const Infoprods = [
     {
+      id: 1,
       name: "JEANS FRENCH BOOT BLUE",
       price: 7000,
       image: prod1,
@@ -16,6 +17,7 @@ const Infoprods = [
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
     },
     {
+      id: 2,
       name: "JEANS DUBLÍN BLACK",
       price: 10000,
       image: prod2,
@@ -23,6 +25,7 @@ const Infoprods = [
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
     },
     {
+      id: 3,
       name: "VESTIDO DUBLIN SLIM BLACK",
       price: 12000,
       image: prod3,
@@ -30,6 +33,7 @@ const Infoprods = [
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
     },
     {
+      id: 4,
       name: "JEANS KIM",
       price: 12900,
       image: prod4,
@@ -37,6 +41,7 @@ const Infoprods = [
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
     },
     {
+      id: 5,
       name: "JEANS FRENCH ACID BLACK",
       price: 8200,
       image: prod5,
@@ -44,6 +49,7 @@ const Infoprods = [
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
     },
     {
+      id: 6,
       name: "JEANS CRYSTAL RIPPED BLUE",
       price: 6700,
       image: prod6,
@@ -51,6 +57,7 @@ const Infoprods = [
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
     },
     {
+      id: 7,
       name: "JEANS BOYFIT TASH RIPPED",
       price: 7300,
       image: prod7,
@@ -58,6 +65,7 @@ const Infoprods = [
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
     },
     {
+      id: 8,
       name: "JEANS FRENCH MID BLUE",
       price: 7200,
       image: prod8,
@@ -65,5 +73,5 @@ const Infoprods = [
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
     },
   ];
-  
+
   export default Infoprods;

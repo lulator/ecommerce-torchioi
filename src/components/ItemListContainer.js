@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import {Spinner} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Infoprods from './Infoprods'
+import ItemDetailContainer from './ItemDetailContainer'
 
 
 
@@ -30,10 +31,15 @@ const ItemListContainer = () => {
       );
     }
 
-    return (        
+    return ( 
+      <div>
       <div className="gallery-block">
         <ItemList resultado={dataContent} />
       </div>
+      <div>
+      <ItemDetailContainer />
+      </div>
+     </div>
   );
 }
 
